@@ -32,31 +32,7 @@ export function Footer() {
               </div>
             </div>
 
-            <div className="flex gap-4">
-              {["twitter", "facebook", "instagram", "github"].map((social) => (
-                <Link
-                  key={social}
-                  href={`#${social}`}
-                  className="flex h-8 w-8 items-center justify-center rounded-full bg-white/10 text-white hover:bg-white/20 transition-colors"
-                >
-                  <span className="sr-only">{social}</span>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="16"
-                    height="16"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    className="h-4 w-4"
-                  >
-                    <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
-                  </svg>
-                </Link>
-              ))}
-            </div>
+          
           </div>
           <div>
             <h3 className="mb-4 text-sm font-semibold uppercase tracking-wider text-zinc-300">Platform</h3>
