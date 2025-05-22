@@ -19,12 +19,12 @@ const navItems: NavItem[] = [
     children: [
       {
         label: "Project Showcase",
-        href: "#showcase",
+        href: "/projects",
         description: "Share your work with our community",
       },
       {
-        label: "Voting System",
-        href: "#voting",
+        label: "How It Works",
+        href: "#how-it-works",
         description: "Get valuable feedback and votes",
       },
       {
@@ -34,7 +34,6 @@ const navItems: NavItem[] = [
       },
     ],
   },
-  { label: "Pricing", href: "#pricing" },
   {
     label: "Resources",
     href: "#resources",
@@ -44,7 +43,7 @@ const navItems: NavItem[] = [
       { label: "Community", href: "#community" },
     ],
   },
-  { label: "Launchpad", href: "#launchpad" },
+  { label: "Launchpad", href: "/projects" },
 ]
 
 export function Navbar() {
